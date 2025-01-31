@@ -1,0 +1,410 @@
+=== Greedy Algorithm Solution ===
+Tour: 1 -> 3 -> 8 -> 10 -> 9 -> 5 -> 6 -> 4 -> 11 -> 7 -> 2
+Distance: 4543.09
+
+=== Random Solutions Statistics ===
+Best Distance: 4960.44
+Worst Distance: 8788.35
+Average Distance: 7461.41
+
+=== All Random Solutions ===
+Random Solution 1:
+Tour: 10 -> 5 -> 3 -> 2 -> 7 -> 1 -> 4 -> 6 -> 11 -> 8 -> 9
+Distance: 4960.44
+
+Random Solution 2:
+Tour: 5 -> 2 -> 7 -> 3 -> 8 -> 1 -> 11 -> 4 -> 10 -> 9 -> 6
+Distance: 5288.30
+
+Random Solution 3:
+Tour: 4 -> 5 -> 8 -> 6 -> 9 -> 1 -> 3 -> 7 -> 2 -> 10 -> 11
+Distance: 6078.22
+
+Random Solution 4:
+Tour: 7 -> 1 -> 9 -> 3 -> 10 -> 4 -> 11 -> 8 -> 5 -> 6 -> 2
+Distance: 6084.89
+
+Random Solution 5:
+Tour: 1 -> 3 -> 9 -> 8 -> 6 -> 11 -> 2 -> 7 -> 5 -> 10 -> 4
+Distance: 6218.20
+
+Random Solution 6:
+Tour: 5 -> 7 -> 2 -> 4 -> 6 -> 8 -> 10 -> 11 -> 1 -> 3 -> 9
+Distance: 6231.24
+
+Random Solution 7:
+Tour: 8 -> 10 -> 4 -> 9 -> 3 -> 5 -> 11 -> 1 -> 2 -> 7 -> 6
+Distance: 6281.32
+
+Random Solution 8:
+Tour: 6 -> 8 -> 9 -> 5 -> 11 -> 2 -> 7 -> 1 -> 4 -> 10 -> 3
+Distance: 6303.30
+
+Random Solution 9:
+Tour: 4 -> 5 -> 1 -> 6 -> 10 -> 3 -> 7 -> 2 -> 9 -> 11 -> 8
+Distance: 6358.44
+
+Random Solution 10:
+Tour: 11 -> 7 -> 2 -> 10 -> 3 -> 9 -> 1 -> 5 -> 8 -> 6 -> 4
+Distance: 6364.65
+
+Random Solution 11:
+Tour: 4 -> 6 -> 8 -> 10 -> 9 -> 7 -> 5 -> 1 -> 3 -> 2 -> 11
+Distance: 6367.90
+
+Random Solution 12:
+Tour: 9 -> 11 -> 6 -> 10 -> 2 -> 7 -> 3 -> 5 -> 4 -> 8 -> 1
+Distance: 6368.94
+
+Random Solution 13:
+Tour: 10 -> 9 -> 4 -> 8 -> 6 -> 3 -> 1 -> 5 -> 11 -> 7 -> 2
+Distance: 6391.82
+
+Random Solution 14:
+Tour: 11 -> 2 -> 7 -> 6 -> 5 -> 10 -> 8 -> 9 -> 1 -> 4 -> 3
+Distance: 6419.42
+
+Random Solution 15:
+Tour: 5 -> 4 -> 6 -> 11 -> 3 -> 8 -> 2 -> 1 -> 7 -> 9 -> 10
+Distance: 6430.56
+
+Random Solution 16:
+Tour: 8 -> 6 -> 4 -> 9 -> 1 -> 3 -> 2 -> 7 -> 11 -> 10 -> 5
+Distance: 6441.92
+
+Random Solution 17:
+Tour: 8 -> 9 -> 10 -> 6 -> 11 -> 1 -> 3 -> 7 -> 4 -> 5 -> 2
+Distance: 6480.74
+
+Random Solution 18:
+Tour: 3 -> 10 -> 11 -> 8 -> 2 -> 7 -> 1 -> 5 -> 6 -> 9 -> 4
+Distance: 6493.84
+
+Random Solution 19:
+Tour: 2 -> 10 -> 5 -> 4 -> 1 -> 6 -> 9 -> 8 -> 3 -> 11 -> 7
+Distance: 6499.34
+
+Random Solution 20:
+Tour: 7 -> 2 -> 9 -> 6 -> 1 -> 11 -> 4 -> 10 -> 5 -> 3 -> 8
+Distance: 6588.87
+
+Random Solution 21:
+Tour: 5 -> 8 -> 10 -> 11 -> 3 -> 4 -> 9 -> 6 -> 7 -> 2 -> 1
+Distance: 6770.11
+
+Random Solution 22:
+Tour: 2 -> 1 -> 7 -> 10 -> 9 -> 11 -> 6 -> 4 -> 3 -> 8 -> 5
+Distance: 6774.48
+
+Random Solution 23:
+Tour: 2 -> 7 -> 4 -> 8 -> 1 -> 6 -> 5 -> 10 -> 11 -> 3 -> 9
+Distance: 6868.27
+
+Random Solution 24:
+Tour: 2 -> 9 -> 10 -> 3 -> 8 -> 4 -> 5 -> 6 -> 7 -> 1 -> 11
+Distance: 6955.85
+
+Random Solution 25:
+Tour: 3 -> 10 -> 9 -> 4 -> 7 -> 8 -> 6 -> 11 -> 5 -> 2 -> 1
+Distance: 6996.77
+
+Random Solution 26:
+Tour: 2 -> 6 -> 11 -> 5 -> 4 -> 7 -> 10 -> 1 -> 8 -> 9 -> 3
+Distance: 6998.25
+
+Random Solution 27:
+Tour: 1 -> 8 -> 9 -> 5 -> 4 -> 7 -> 11 -> 6 -> 10 -> 3 -> 2
+Distance: 7004.20
+
+Random Solution 28:
+Tour: 8 -> 7 -> 3 -> 9 -> 10 -> 6 -> 1 -> 5 -> 2 -> 4 -> 11
+Distance: 7038.59
+
+Random Solution 29:
+Tour: 7 -> 8 -> 5 -> 6 -> 4 -> 9 -> 3 -> 2 -> 1 -> 11 -> 10
+Distance: 7125.08
+
+Random Solution 30:
+Tour: 9 -> 7 -> 5 -> 4 -> 6 -> 10 -> 8 -> 1 -> 11 -> 2 -> 3
+Distance: 7138.78
+
+Random Solution 31:
+Tour: 3 -> 5 -> 10 -> 9 -> 6 -> 8 -> 2 -> 4 -> 11 -> 1 -> 7
+Distance: 7151.97
+
+Random Solution 32:
+Tour: 4 -> 5 -> 6 -> 2 -> 10 -> 11 -> 1 -> 7 -> 8 -> 9 -> 3
+Distance: 7205.94
+
+Random Solution 33:
+Tour: 7 -> 11 -> 4 -> 2 -> 3 -> 8 -> 6 -> 10 -> 9 -> 1 -> 5
+Distance: 7208.11
+
+Random Solution 34:
+Tour: 7 -> 1 -> 3 -> 5 -> 2 -> 4 -> 9 -> 8 -> 10 -> 6 -> 11
+Distance: 7274.67
+
+Random Solution 35:
+Tour: 7 -> 9 -> 11 -> 10 -> 2 -> 8 -> 6 -> 4 -> 5 -> 1 -> 3
+Distance: 7281.81
+
+Random Solution 36:
+Tour: 4 -> 1 -> 2 -> 8 -> 9 -> 7 -> 11 -> 3 -> 10 -> 5 -> 6
+Distance: 7297.06
+
+Random Solution 37:
+Tour: 1 -> 3 -> 11 -> 2 -> 8 -> 7 -> 10 -> 9 -> 6 -> 4 -> 5
+Distance: 7301.04
+
+Random Solution 38:
+Tour: 3 -> 11 -> 4 -> 7 -> 5 -> 2 -> 6 -> 1 -> 9 -> 10 -> 8
+Distance: 7301.15
+
+Random Solution 39:
+Tour: 4 -> 11 -> 5 -> 1 -> 7 -> 9 -> 6 -> 2 -> 8 -> 3 -> 10
+Distance: 7311.39
+
+Random Solution 40:
+Tour: 6 -> 5 -> 4 -> 1 -> 7 -> 9 -> 2 -> 11 -> 3 -> 8 -> 10
+Distance: 7324.18
+
+Random Solution 41:
+Tour: 8 -> 2 -> 4 -> 5 -> 3 -> 11 -> 6 -> 10 -> 9 -> 7 -> 1
+Distance: 7379.46
+
+Random Solution 42:
+Tour: 5 -> 1 -> 2 -> 10 -> 8 -> 6 -> 3 -> 7 -> 11 -> 9 -> 4
+Distance: 7423.73
+
+Random Solution 43:
+Tour: 3 -> 1 -> 11 -> 8 -> 6 -> 9 -> 10 -> 2 -> 4 -> 5 -> 7
+Distance: 7456.41
+
+Random Solution 44:
+Tour: 7 -> 10 -> 6 -> 8 -> 9 -> 11 -> 3 -> 2 -> 4 -> 5 -> 1
+Distance: 7459.11
+
+Random Solution 45:
+Tour: 5 -> 2 -> 10 -> 4 -> 7 -> 3 -> 9 -> 8 -> 6 -> 11 -> 1
+Distance: 7467.88
+
+Random Solution 46:
+Tour: 1 -> 3 -> 7 -> 4 -> 11 -> 2 -> 6 -> 10 -> 5 -> 8 -> 9
+Distance: 7489.03
+
+Random Solution 47:
+Tour: 4 -> 2 -> 1 -> 11 -> 3 -> 10 -> 7 -> 9 -> 8 -> 6 -> 5
+Distance: 7514.53
+
+Random Solution 48:
+Tour: 2 -> 9 -> 8 -> 1 -> 3 -> 10 -> 6 -> 11 -> 5 -> 7 -> 4
+Distance: 7520.87
+
+Random Solution 49:
+Tour: 6 -> 10 -> 1 -> 8 -> 3 -> 7 -> 11 -> 4 -> 5 -> 9 -> 2
+Distance: 7521.93
+
+Random Solution 50:
+Tour: 5 -> 8 -> 6 -> 9 -> 10 -> 1 -> 7 -> 4 -> 3 -> 2 -> 11
+Distance: 7522.40
+
+Random Solution 51:
+Tour: 8 -> 1 -> 6 -> 5 -> 10 -> 4 -> 2 -> 3 -> 7 -> 9 -> 11
+Distance: 7549.30
+
+Random Solution 52:
+Tour: 7 -> 5 -> 4 -> 3 -> 2 -> 11 -> 10 -> 6 -> 1 -> 9 -> 8
+Distance: 7553.52
+
+Random Solution 53:
+Tour: 9 -> 7 -> 11 -> 3 -> 2 -> 8 -> 10 -> 5 -> 1 -> 6 -> 4
+Distance: 7587.44
+
+Random Solution 54:
+Tour: 6 -> 4 -> 10 -> 2 -> 3 -> 1 -> 7 -> 5 -> 9 -> 11 -> 8
+Distance: 7617.06
+
+Random Solution 55:
+Tour: 6 -> 2 -> 10 -> 5 -> 1 -> 4 -> 11 -> 3 -> 7 -> 9 -> 8
+Distance: 7622.71
+
+Random Solution 56:
+Tour: 11 -> 4 -> 9 -> 5 -> 1 -> 3 -> 2 -> 8 -> 6 -> 7 -> 10
+Distance: 7662.59
+
+Random Solution 57:
+Tour: 10 -> 7 -> 11 -> 6 -> 1 -> 5 -> 3 -> 8 -> 4 -> 2 -> 9
+Distance: 7673.99
+
+Random Solution 58:
+Tour: 8 -> 10 -> 11 -> 7 -> 9 -> 1 -> 6 -> 3 -> 2 -> 5 -> 4
+Distance: 7679.19
+
+Random Solution 59:
+Tour: 7 -> 5 -> 9 -> 4 -> 11 -> 1 -> 6 -> 10 -> 3 -> 2 -> 8
+Distance: 7682.76
+
+Random Solution 60:
+Tour: 7 -> 6 -> 9 -> 11 -> 2 -> 10 -> 8 -> 3 -> 1 -> 4 -> 5
+Distance: 7683.55
+
+Random Solution 61:
+Tour: 3 -> 1 -> 4 -> 7 -> 11 -> 10 -> 2 -> 5 -> 6 -> 8 -> 9
+Distance: 7687.27
+
+Random Solution 62:
+Tour: 10 -> 3 -> 4 -> 9 -> 11 -> 6 -> 8 -> 7 -> 1 -> 2 -> 5
+Distance: 7768.66
+
+Random Solution 63:
+Tour: 2 -> 9 -> 11 -> 6 -> 10 -> 4 -> 3 -> 7 -> 1 -> 8 -> 5
+Distance: 7781.30
+
+Random Solution 64:
+Tour: 11 -> 6 -> 5 -> 8 -> 7 -> 10 -> 3 -> 4 -> 2 -> 1 -> 9
+Distance: 7815.61
+
+Random Solution 65:
+Tour: 3 -> 5 -> 10 -> 2 -> 4 -> 6 -> 8 -> 9 -> 1 -> 11 -> 7
+Distance: 7826.28
+
+Random Solution 66:
+Tour: 11 -> 4 -> 2 -> 10 -> 8 -> 3 -> 6 -> 7 -> 9 -> 5 -> 1
+Distance: 7842.96
+
+Random Solution 67:
+Tour: 10 -> 3 -> 1 -> 5 -> 2 -> 6 -> 8 -> 7 -> 9 -> 11 -> 4
+Distance: 7851.09
+
+Random Solution 68:
+Tour: 5 -> 2 -> 11 -> 4 -> 1 -> 3 -> 6 -> 9 -> 7 -> 10 -> 8
+Distance: 7904.93
+
+Random Solution 69:
+Tour: 4 -> 7 -> 1 -> 9 -> 2 -> 10 -> 6 -> 3 -> 8 -> 11 -> 5
+Distance: 7919.24
+
+Random Solution 70:
+Tour: 8 -> 4 -> 7 -> 3 -> 1 -> 9 -> 2 -> 5 -> 10 -> 11 -> 6
+Distance: 7937.11
+
+Random Solution 71:
+Tour: 11 -> 4 -> 1 -> 9 -> 7 -> 5 -> 6 -> 3 -> 10 -> 2 -> 8
+Distance: 7977.67
+
+Random Solution 72:
+Tour: 10 -> 11 -> 4 -> 7 -> 6 -> 3 -> 2 -> 8 -> 1 -> 9 -> 5
+Distance: 8001.41
+
+Random Solution 73:
+Tour: 7 -> 3 -> 5 -> 11 -> 9 -> 6 -> 1 -> 8 -> 2 -> 4 -> 10
+Distance: 8027.96
+
+Random Solution 74:
+Tour: 10 -> 3 -> 8 -> 7 -> 11 -> 1 -> 4 -> 6 -> 9 -> 2 -> 5
+Distance: 8036.63
+
+Random Solution 75:
+Tour: 5 -> 9 -> 11 -> 7 -> 8 -> 4 -> 6 -> 3 -> 10 -> 1 -> 2
+Distance: 8091.91
+
+Random Solution 76:
+Tour: 1 -> 2 -> 9 -> 6 -> 4 -> 7 -> 10 -> 5 -> 3 -> 8 -> 11
+Distance: 8105.16
+
+Random Solution 77:
+Tour: 3 -> 10 -> 7 -> 8 -> 2 -> 11 -> 9 -> 5 -> 1 -> 4 -> 6
+Distance: 8144.23
+
+Random Solution 78:
+Tour: 3 -> 7 -> 10 -> 5 -> 2 -> 9 -> 1 -> 6 -> 8 -> 4 -> 11
+Distance: 8172.76
+
+Random Solution 79:
+Tour: 8 -> 2 -> 10 -> 4 -> 3 -> 1 -> 11 -> 9 -> 6 -> 5 -> 7
+Distance: 8187.30
+
+Random Solution 80:
+Tour: 7 -> 8 -> 1 -> 6 -> 3 -> 4 -> 2 -> 11 -> 9 -> 10 -> 5
+Distance: 8189.04
+
+Random Solution 81:
+Tour: 8 -> 10 -> 5 -> 7 -> 1 -> 4 -> 3 -> 11 -> 9 -> 6 -> 2
+Distance: 8219.86
+
+Random Solution 82:
+Tour: 3 -> 4 -> 10 -> 2 -> 11 -> 1 -> 5 -> 6 -> 8 -> 7 -> 9
+Distance: 8267.93
+
+Random Solution 83:
+Tour: 11 -> 8 -> 7 -> 10 -> 9 -> 4 -> 2 -> 5 -> 1 -> 6 -> 3
+Distance: 8271.86
+
+Random Solution 84:
+Tour: 4 -> 8 -> 11 -> 3 -> 1 -> 2 -> 10 -> 7 -> 5 -> 6 -> 9
+Distance: 8278.49
+
+Random Solution 85:
+Tour: 1 -> 6 -> 9 -> 5 -> 10 -> 11 -> 3 -> 7 -> 8 -> 2 -> 4
+Distance: 8296.22
+
+Random Solution 86:
+Tour: 7 -> 9 -> 2 -> 6 -> 5 -> 8 -> 1 -> 3 -> 11 -> 10 -> 4
+Distance: 8332.47
+
+Random Solution 87:
+Tour: 2 -> 6 -> 9 -> 3 -> 11 -> 10 -> 5 -> 7 -> 8 -> 4 -> 1
+Distance: 8350.94
+
+Random Solution 88:
+Tour: 5 -> 8 -> 2 -> 9 -> 1 -> 7 -> 11 -> 3 -> 6 -> 4 -> 10
+Distance: 8356.29
+
+Random Solution 89:
+Tour: 11 -> 6 -> 8 -> 2 -> 9 -> 4 -> 1 -> 5 -> 7 -> 10 -> 3
+Distance: 8379.85
+
+Random Solution 90:
+Tour: 5 -> 3 -> 1 -> 11 -> 2 -> 10 -> 6 -> 7 -> 4 -> 8 -> 9
+Distance: 8401.54
+
+Random Solution 91:
+Tour: 5 -> 4 -> 2 -> 8 -> 6 -> 7 -> 9 -> 11 -> 1 -> 10 -> 3
+Distance: 8416.43
+
+Random Solution 92:
+Tour: 9 -> 6 -> 8 -> 5 -> 4 -> 7 -> 10 -> 3 -> 11 -> 2 -> 1
+Distance: 8443.65
+
+Random Solution 93:
+Tour: 9 -> 4 -> 1 -> 8 -> 6 -> 2 -> 10 -> 5 -> 3 -> 7 -> 11
+Distance: 8462.12
+
+Random Solution 94:
+Tour: 11 -> 10 -> 5 -> 3 -> 4 -> 9 -> 2 -> 6 -> 1 -> 7 -> 8
+Distance: 8462.68
+
+Random Solution 95:
+Tour: 6 -> 10 -> 7 -> 5 -> 11 -> 8 -> 2 -> 4 -> 3 -> 9 -> 1
+Distance: 8467.14
+
+Random Solution 96:
+Tour: 10 -> 1 -> 5 -> 8 -> 4 -> 3 -> 9 -> 2 -> 11 -> 6 -> 7
+Distance: 8490.00
+
+Random Solution 97:
+Tour: 11 -> 7 -> 8 -> 4 -> 5 -> 10 -> 2 -> 9 -> 1 -> 6 -> 3
+Distance: 8691.99
+
+Random Solution 98:
+Tour: 9 -> 11 -> 7 -> 6 -> 1 -> 5 -> 8 -> 4 -> 3 -> 10 -> 2
+Distance: 8721.81
+
+Random Solution 99:
+Tour: 1 -> 9 -> 4 -> 3 -> 5 -> 2 -> 11 -> 7 -> 6 -> 8 -> 10
+Distance: 8725.41
+
+Random Solution 100:
+Tour: 5 -> 11 -> 3 -> 4 -> 1 -> 10 -> 2 -> 6 -> 8 -> 7 -> 9
+Distance: 8788.35
+
